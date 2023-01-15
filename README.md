@@ -4,7 +4,7 @@ The goal of the lab was to fine-tune a pre-trained transformer model called Whis
 
 1. A feature pipeline that downloads data from the common voice dataset (swedish subset) and extracts labels and features.
 2. A training pipeline that downloads the data from Google Drive, in this case, and trains on that data. The model is then evaluated with the evaluation metric WER (word error rate). The checkpoints were saved every 500 steps on Google Drive instead of every 1000 as in the original code (https://github.com/ID2223KTH/id2223kth.github.io/tree/master/assignments/lab2)
-3. A Hugging Face UI was then lastly created to allow users to speak directly into the microphone and transcribe the speech. Additionally, it is possible to input a YouTube video to the model which is then transcribed as well.
+3. A Hugging Face UI was then lastly created to allow users to speak directly into the microphone and transcribe the speech. Additionally, it is possible to input a YouTube video to the model which is then transcribed as well. The speech-to-text also comes with a translator which translates the spoken audio into of of five languages: English, Spanish, Dutch, French and Italian.
 
 # Hugging Face UI
 
